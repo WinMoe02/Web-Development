@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table (Rowspan, Colspan)</title>
+	<style type="text/css">
+		table,th,tr,td{
+			border: 2px solid black;
+			border-collapse: collapse;
+			text-align: center;
+			font-size: 20px;
+		}
+		tr{
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<table style="width:50%">
+		<caption>Courses in International School</caption>
+		<tr>
+			<th rowspan="2">Primary</th>
+			<th colspan="2">Secondary</th>
+			
+			<th rowspan="2">IGCSE</th>
+		</tr>
+		<tr>
+			
+			<th>Lower Secondary</th>
+			<th>Upper Secondary</th>
+			
+		</tr>
+		<tr>
+			<td>Myanmar</td>
+			<td>English</td>
+			<td>English</td>
+			<td>English IGCSE</td>
+		</tr>
+	</table>
+</body>
+</html>
